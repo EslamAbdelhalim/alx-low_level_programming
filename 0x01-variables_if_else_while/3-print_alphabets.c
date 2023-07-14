@@ -8,11 +8,11 @@
 
 int main (void)
 {
-int lett_lower, lett_upper;
-for (lett_lower= 'a'; lett_lower <= 'z'; lett_lower++)
-put char("lerr_lower\n");
-for (lett_upper= 'A'; lett_upper <= 'Z'; lett_upper++)
-put char ("lett_upper");
+int lett;
+for (lett = 'a'; lett <= 'z'; lett++)
+put char("lett");
+for (lett = 'A'; lett <= 'Z'; lett++)
+put char ("lett");
 put char ("\n")
 return (0);
 }
