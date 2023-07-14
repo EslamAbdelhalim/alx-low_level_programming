@@ -10,9 +10,9 @@ int main (void)
 {
 int lett;
 for (lett = 'a'; lett <= 'z'; lett++)
-put char("lett");
+putchar("lett");
 for (lett = 'A'; lett <= 'Z'; lett++)
-put char ("lett");
-put char ("\n")
+putchar("lett");
+ putchar("\n");
 return (0);
 }
