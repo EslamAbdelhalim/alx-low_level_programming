@@ -3,12 +3,12 @@
 #include <time.h>
 
 /**
- * main : Entry point print 
+ * main : print if the number is positive, zero, or negative
  *
- * Description: print the value of n status:
- * greater than, is zero and not less than 6
+ * Description: using the main function this program prints
+ * "programming is positive, zero, or negative
  *
- * Return : always 0 (success)
+ * Return: 0 
 */
 
 int main(void)
@@ -19,10 +19,10 @@ int n, digit;
 	n = rand() - RAND_MAX / 2;
 	digit = n % 10;
 	if (digit > 5)
-	  printf("Last digit of %i is %i and is greater than 5\n", n, digit);
+	  printf("Last digit of %d is %d and is greater than 5\n", n, digit);
 	else if (digit == 0)
-	  printf("Last digit of %i is %i and is 0\n", n, digit);
-	else if (digit < 6 && digit != 0)
-	  printf("Last digit of %i is %i and is less than 6 and not 0\n", n, digit);
+	  printf("Last digit of %d is %d and is 0\n", n, digit);
+	else
+	  printf("Last digit of %d is %d and is less than 6 and not 0\n", n, digit);
 	return (0);
 }
