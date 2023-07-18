@@ -1,0 +1,18 @@
+#include "main.h"
+void print_alphabet(void);
+/**
+ * main - function that prints the alphabet, in lowercase,
+ * followed by a new line.
+ *
+ *return: always 0
+ *
+*/
+void print_alphabet(void)
+{
+  char i;
+  for (i = 'a'; i <= 'z'; i++)
+    {
+      putchar(i);
+    }
+  putchar('\n');
+}
